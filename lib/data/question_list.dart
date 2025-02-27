@@ -1,8 +1,8 @@
-import 'questionStructure.dart';
+import '../models/questionStructure.dart';
 
 class QuestionList {
   int _questionIndex = 0;
-  List<QuestionStructure> _questionList = [
+  final List<QuestionStructure> _questionList = [
     QuestionStructure(
       text: 'Dart programming language is used by Flutter.',
       answer: true,
